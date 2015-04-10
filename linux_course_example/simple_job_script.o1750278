@@ -1,0 +1,27 @@
+ Running PBS prologue script on green0733
+
+ ===============================================================================
+ Job started on Wed Apr  1 17:47:29 BST 2015
+
+ JOB ID: 1750278.blue101
+ JOB NAME: simple_job_script
+ Num Hosts: 1
+ Num Tasks: 1
+ Nodes used: 
+ green0733
+ ===============================================================================
+ Job Output Follows:
+ ===============================================================================
+
+Hello di1c13
+This script is executing on the following host: green0733
+This script is executing in this directory: /home/di1c13/linux_course_example
+This script is now going to sleep for 5 minutes now.
+Goodbye di1c13
+
+ ===============================================================================
+ Job finished at Wed Apr  1 17:52:31 BST 2015
+
+
+Requested resource limits are neednodes=1,nodes=1,pmem=4000mb,walltime=00:30:00
+Used resource limits are cput=00:00:00,mem=3628kb,vmem=131856kb,walltime=00:05:02

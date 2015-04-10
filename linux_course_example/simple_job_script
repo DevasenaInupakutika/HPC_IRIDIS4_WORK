@@ -1,0 +1,26 @@
+#!/bin/bash
+#PBS -l walltime=00:30:00
+
+cd $PBS_O_WORKDIR
+
+# This is a comment
+# The script says hello to you.
+echo "Hello $USER"   # This is a comment, too!
+
+# Where is this script executing?
+echo "This script is executing on the following host: `hostname`"
+
+# Which directory am I working in?
+echo "This script is executing in this directory: `pwd`"
+
+# This script is going to sleep for 300 seconds now.
+#echo "This script is now going to sleep for 30 seconds"
+#sleep 30
+
+# This script is going to execute/ sleep for 5 minutes now.
+
+echo "This script is now going to sleep for 5 minutes now."
+sleep 300
+
+# This script says goodbye
+echo "Goodbye $USER"
