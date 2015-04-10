@@ -109,4 +109,21 @@ nums = {int(sqrt(x)) for x in range(30)}
 
 print nums
 
+# TUPLES
+
+# Tuples are ordered list of values. They are in many ways similar to a list. Tuples can be used as keys in dictionaries and as elements in sets, while lists can't. 
+
+d = {(x, x+1):x for x in range(10)} # Create a dictionary with tuple keys
+t = (5,6) # Create a tuple
+
+print d # Prints dictionary contents
+
+print t # Prints tuple contents
+
+print type(t) # Prints "<type 'tuple'>"
+
+print d[t]    # Prints "5"
+
+print d[(1,2)]# Prints "1"
+
 
