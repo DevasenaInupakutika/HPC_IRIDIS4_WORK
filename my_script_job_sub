@@ -1,3 +1,6 @@
 #!/bin/bash
 
+cd HPC_IRIDIS4_WORK_2015
+module load numpy
+module add numpy
 python python_datatypes.py
